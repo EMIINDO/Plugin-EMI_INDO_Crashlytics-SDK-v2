@@ -1,0 +1,44 @@
+{
+  "crashlytics": {
+    "conditions": [],
+    "actions": [
+      {
+        "c2id": 0,
+        "id": "aa0",
+        "scriptName": "aa",
+        "highlight": false,
+        "params": [
+          {
+            "id": "log0",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "c2id": 1,
+        "id": "bb1",
+        "scriptName": "bb",
+        "highlight": false,
+        "params": [
+          {
+            "id": "logerror0",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "c2id": 2,
+        "id": "cc2",
+        "scriptName": "cc",
+        "highlight": false,
+        "params": [
+          {
+            "id": "userid0",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  }
+}

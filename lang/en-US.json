@@ -1,0 +1,62 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Firebase_Crashlytics Plugin",
+  "text": {
+    "plugins": {
+      "emi_indo_crashlytics": {
+        "name": "Firebase_Crashlytics",
+        "description": "Firebase Crashlytics",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {
+          "set-enabled": {
+            "name": "set enabled",
+            "items": {
+              "enabled": "Enabled",
+              "disabled": "Disabled"
+            }
+          }
+        },
+        "aceCategories": {
+          "crashlytics": "Crashlytics"
+        },
+        "conditions": {},
+        "actions": {
+          "aa0": {
+            "list-name": "Log",
+            "display-text": "Log:  [b]{0}[/b].",
+            "description": "Add logging that will be sent with your crash data in case of app crash. Compare Firebase documentation.",
+            "params": {
+              "log0": {
+                "name": "Log",
+                "desc": "my custom log message"
+              }
+            }
+          },
+          "bb1": {
+            "list-name": "log Error",
+            "display-text": "log Error: [b]{0}[/b].",
+            "description": "Log non-fatal exceptions in addition to automatically reported app crashes. Compare Firebase documentation.",
+            "params": {
+              "logerror0": {
+                "name": "log Error",
+                "desc": "my non-fatal exception message"
+              }
+            }
+          },
+          "cc2": {
+            "list-name": "set User Id",
+            "display-text": "set User Id:  [b]{0}[/b].",
+            "description": "Sets the user identifier property for crashlytics reporting. Compare Firebase documentation.",
+            "params": {
+              "userid0": {
+                "name": "user Id",
+                "desc": "Sets the user identifier property for crashlytics reporting."
+              }
+            }
+          }
+        },
+        "expressions": {}
+      }
+    }
+  }
+}
